@@ -1,0 +1,161 @@
+/* Css for all page with menu */
+h1 {
+	color: red ;
+	font-size: 150px;
+	text-align: center;
+	padding: 0 20px 20px 20px;
+}
+
+p {
+	text-align: center;
+	font-size: 100px ;
+}
+
+.myStyle {
+	background-color: blue;
+	color: yellow ;
+}
+
+ul {
+	display : flex ;
+	list-style-type: none;
+}
+
+nav > ul > li {
+	margin : 10px ;
+}
+
+nav > ul > li > a
+{
+	text-decoration : none ;
+}
+
+/* class of page image.html */
+.flex
+{
+	display:flex;
+}
+
+.top
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.center
+{
+	margin: 20px auto;
+	width:70%;
+}
+
+.circle{
+	margin:10px;
+	width:100px;
+   	background:red;
+	height:100px;
+	text-align:center;
+	border-radius:100px;
+}
+
+.rectangle{
+	margin:10px;
+	width:100px;
+	background-color:blue;
+	height:250px;
+	transform: translate(0px , -20px);
+}
+
+
+/* first basket */
+.basBasket
+{
+	border: 1px solid black;
+	width: 150px;
+	height: 15px;
+	text-align:center;
+	border-radius:100px;
+}
+
+.triangle-code
+{
+	margin-left: 10px;
+ 	//display : inline-block;
+ 	height : 0;
+ 	width : 0;
+ 	border-bottom : 50px solid red;
+ 	border-left : 75px solid transparent;
+}
+
+.carre
+{
+	width:55px;
+	height:50px;
+	background-color:brown;
+}
+
+/* second basket */
+.border
+{
+	width: 160px;
+	height: 25px ;
+	background : brown ;
+	border-radius: 10px 0px 0px 10px;
+	transform: translate(-10px , 30px);
+}
+
+.cercleSecond
+{
+  width : 50px;
+  height : 50px;
+  background : green;
+  -moz-border-radius : 25px;
+  -webkit-border-radius : 25px;
+  border-radius : 25px;  /* ou 50% */
+}
+
+.ovale{
+  width : 100px;
+  height : 50px;
+  background : green;
+  -moz-border-radius : 50px / 25px;
+  -webkit-border-radius : 50px / 25px;
+  border-radius : 50px / 25px;
+}
+
+.dessusOvale{
+  //border:1px solid red;
+  width : 100px;
+  height : 50px;
+  background : blue;
+  -moz-border-radius : 50px / 25px;
+  -webkit-border-radius : 50px / 25px;
+  border-radius : 50px / 25px;
+  transform: translate(0px , 55px);
+}
+
+.supp{
+  width: 100px;
+  height:25px;
+  //border: 1px solid red;
+  background-color : white ;
+  transform: translate(0px , 25px);
+}
+
+/* exemple de triangle pour le tester a ma maniere */
+/*.triangle{
+  border-style : solid;
+  border-color : darkslateblue pink green red;
+  border-width : 20px 40px 20px  20px ; 
+  background   : #ccc;  
+  width  : 20px;
+  height : 20px;
+}*/
+
+.triangle{
+  border-style : solid;
+  border-color : darkslateblue pink green red;
+  border-width : 0 40px 20px  20px ;  /* top à 0 */
+  background   : #ccc;  
+  width  : 20px;
+  height : 20px;
+}
